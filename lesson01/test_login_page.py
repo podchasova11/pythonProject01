@@ -12,11 +12,11 @@ class TestLoginPages: # Название тестового класса
         self.driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login") #("https://demoqa.com/login")
         assert self.driver.current_url == "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", "Ошибка"  #"https://demoqa.com/login", "Ошибка"
 
-    def test_open_books_page(self): # Тест упадет
+    def test_open_books_page(self): # Тест пройдет
         self.driver.get("https://demoqa.com/books")
         assert self.driver.current_url == "https://demoqa.com/books", "Ошибка"
 
-    def test_open_profile_page(self): # Тест упадет
+    def test_open_profile_page(self): # Тест пройдет
         self.driver.get("https://demoqa.com/profile")
         assert self.driver.current_url == "https://demoqa.com/profile", "Ошибка"
 
