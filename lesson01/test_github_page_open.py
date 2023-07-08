@@ -14,6 +14,6 @@ class TestGitHubPageOpen:
     def test_orange_page_open(self):
         self.driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         assert self.driver.current_url == "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
-        def teardown(self):
+    def teardown(self):
         self.driver.close()    
     
